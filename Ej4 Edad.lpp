@@ -1,0 +1,10 @@
+entero edad
+inicio
+escriba "Ingrese su edad "
+lea edad
+si edad < 18 entonces
+	escriba "Eres menor de edad"
+	sino
+	escriba "Eres mayor de edad"
+fin si
+fin

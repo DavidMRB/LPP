@@ -1,0 +1,9 @@
+entero numero
+inicio
+numero <- 0
+mientras numero < 100 haga
+	numero <- numero + 1
+	escriba numero
+	llamar nueva_linea
+fin mientras
+fin

@@ -1,0 +1,17 @@
+real priPrev, segPrev, terNota, exaFinal, definitiva
+inicio
+escriba "Ingrese la nota del primer previo "
+lea priPrev
+priPrev <- priPrev * 0.25
+escriba "Ingrese la nota del segundo previo "
+lea segPrev
+segPrev <- segPrev * 0.25
+escriba "Ingrese la tercera nota "
+lea terNota
+terNota <- terNota * 0.20
+escriba "Ingrese la nota del examen final "
+lea exaFinal
+exaFinal <- exaFinal * 0.30
+definitiva <- priPrev + segPrev + terNota + exaFinal
+escriba "La nota definitiva es ", definitiva
+fin

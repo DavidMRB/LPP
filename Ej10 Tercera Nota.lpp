@@ -1,0 +1,16 @@
+real nota, promedio, equivalencia
+entero n, cantNotas
+inicio
+escriba "Cuantas notas va a ingresar "
+lea cantNotas
+para n <- 1 hasta cantNotas haga
+	escriba "Ingrese la nota "
+	lea nota
+	promedio <- promedio + nota
+fin para
+promedio <- promedio / cantNotas
+equivalencia <- promedio * 0.2
+escriba "El promedio del estudiante es ", promedio
+llamar nueva_linea
+escriba "La equivalencia a la tercera nota es ", equivalencia
+fin

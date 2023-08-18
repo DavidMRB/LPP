@@ -1,0 +1,8 @@
+entero kilo
+entero gramo
+inicio
+escriba "Inserte la cantidad en kilogramos a convertir "
+lea kilo
+gramo <- kilo * 1000
+escriba kilo, "Kg es equivalentes a ", gramo, "g"
+fin

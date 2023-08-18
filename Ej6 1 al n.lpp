@@ -1,0 +1,12 @@
+entero numero
+entero limite
+inicio
+escriba "Ingresa un limite "
+lea limite
+numero <- 0
+mientras numero < limite haga
+	numero <- numero + 1
+	escriba numero
+	llamar nueva_linea
+fin mientras
+fin

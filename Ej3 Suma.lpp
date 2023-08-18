@@ -1,0 +1,10 @@
+entero numero1, numero2, numero3
+inicio
+Escriba "Escribe los numeros a sumar "
+lea numero1
+escriba " + "
+lea numero2
+llamar nueva_linea
+numero3 <- numero1 + numero2
+escriba numero1, " + ", numero2, " = ", numero3
+fin
